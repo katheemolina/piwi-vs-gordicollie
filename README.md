@@ -42,8 +42,8 @@ Un emocionante juego de dibujo y adivinanza donde dos equipos compiten para adiv
    ```
 
 2. **Abre el proyecto**:
-   - Abre `bienvenida.html` en tu navegador para comenzar
-   - O abre `index.html` para ir directamente al juego
+   - Abre `index.html` en tu navegador para comenzar (página de bienvenida)
+   - O abre `game.html` para ir directamente al juego
 
 3. **¡Listo para jugar!** 🎮
 
@@ -74,13 +74,14 @@ Un emocionante juego de dibujo y adivinanza donde dos equipos compiten para adiv
 
 ```
 piwi-vs-gordicollie/
-├── bienvenida.html          # Página de bienvenida
-├── index.html              # Página principal del juego
+├── index.html              # Página principal (bienvenida)
+├── game.html               # Página del juego
 ├── script.js               # Lógica del juego
 ├── styles.css              # Estilos globales
 ├── img/                    # Imágenes del proyecto
 │   ├── Logo.png           # Logo principal
-│   └── Texto.png          # Imagen de título
+│   ├── Texto.png          # Imagen de título
+│   └── uzidraco.jpg       # Foto de los perritos (easter egg)
 ├── sounds/                 # Efectos de sonido
 │   ├── background.mp3     # Música de fondo
 │   ├── next-turn.mp3      # Siguiente turno
@@ -90,6 +91,7 @@ piwi-vs-gordicollie/
 │   └── victory.mp3        # Victoria
 └── README.md              # Documentación
 ```
+
 
 ## 🎯 Características Técnicas
 
@@ -165,29 +167,21 @@ npx serve .
 php -S localhost:8000
 ```
 
+
+## 🐕‍🦺 Easter Egg
+
+¡Descubre el easter egg! Haz clic en el logo en la página de bienvenida para conocer a los verdaderos protagonistas detrás de este juego: **Draco y Uzi**, los perritos inspiradores.
+
 ## 👥 Autores
 
 - **Desarrollador Principal**: Kathee Molina
 - **Diseño**: Kathee Molina
 - **Concepto**: Piwi vs Gordi Collie
+- **Inspiración**: Draco (Pitbull) & Uzi (Border Collie) 🐕❤️
 
-## 🙏 Agradecimientos
 
-- **Google Fonts** por la tipografía Roboto
-- **Comunidad de desarrolladores** por las inspiraciones
-- **Familia y amigos** por las pruebas y feedback
 
 ## 📞 Contacto
 
 - **GitHub**: [@katheemolina](https://github.com/katheemolina)
-- **Proyecto**: [Piwi vs Gordi Collie](https://github.com/katheemolina/piwi-vs-gordicollie)
-
----
-
-<div align="center">
-
-**¡Disfruta jugando Piwi vs Gordi Collie! 🎨🎮**
-
-*¡La creatividad y la diversión nunca terminan!*
-
-</div>
+- **Proyecto**: [Piwi vs Gordi Collie](https://piwivsgordicollie.katherinemolina.com/)
